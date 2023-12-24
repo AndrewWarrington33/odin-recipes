@@ -1,3 +1,6 @@
+* {
+    background-color: beige;
+}
 .title {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(234, 0, 255);
@@ -22,4 +25,16 @@
 #ordered {
     list-style-type: decimal;
     text-align: left;
+}
+
+#front_page {
+    width: fit-content;
+    height: auto;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 4px;
+    border-color: rgba(0, 255, 255, 0.667);
+    text-align: center;
+    margin: auto;
 }
